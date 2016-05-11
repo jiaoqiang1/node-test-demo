@@ -5,5 +5,8 @@
     "uglify_src": [
         "js/*.js"
     ],
-    "uglify_dest": "dist/js"
+    "uglify_dest": "dist/js",
+    "mocha_test_src": [
+        "test/*.js"
+    ]
 }
