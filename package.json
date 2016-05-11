@@ -1,7 +1,7 @@
 {
     "name": "node-test-demo",
     "version": "1.0.0",
-    "description": "a sample node test demo",
+    "description": "[![Build Status](https://travis-ci.org/GinMu/node-test-demo.svg?branch=master)](https://travis-ci.org/GinMu/node-test-demo)",
     "directories": {
         "test": "test"
     },
