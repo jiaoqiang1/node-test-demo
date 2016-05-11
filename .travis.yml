@@ -3,6 +3,5 @@ node_js:
   - "4.4.1"
 before_script:
   - npm install -g gulp
-  - npm install grunt-cli -g
 install: npm install
 script: gulp
