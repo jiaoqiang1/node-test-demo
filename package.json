@@ -1,33 +1,37 @@
 {
-  "name": "node-test-demo",
-  "version": "1.0.0",
-  "description": "a sample node test demo",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "dependencies": {
-    "should": "^8.3.1"
-  },
-  "devDependencies": {
-    "should": "^8.3.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GinMu/node-test-demo.git"
-  },
-  "keywords": [
-    "node",
-    "test",
-    "mocha"
-  ],
-  "author": "smu",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/GinMu/node-test-demo/issues"
-  },
-  "homepage": "https://github.com/GinMu/node-test-demo#readme"
+    "name": "node-test-demo",
+    "version": "1.0.0",
+    "description": "a sample node test demo",
+    "directories": {
+        "test": "test"
+    },
+    "dependencies": {
+        "should": "^8.3.1"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-jshint": "^2.0.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-uglify": "^1.5.3",
+        "jshint": "^2.9.2",
+        "should": "^8.3.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GinMu/node-test-demo.git"
+    },
+    "keywords": [
+        "node",
+        "test",
+        "mocha"
+    ],
+    "author": "smu",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/GinMu/node-test-demo/issues"
+    },
+    "homepage": "https://github.com/GinMu/node-test-demo#readme"
 }

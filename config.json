@@ -1,0 +1,9 @@
+{
+    "jshint_src": [
+        "js/*.js"
+    ],
+    "uglify_src": [
+        "js/*.js"
+    ],
+    "uglify_dest": "dist/js"
+}
