@@ -1,37 +1,38 @@
 {
-    "name": "node-test-demo",
-    "version": "1.0.0",
-    "description": "[![Build Status](https://travis-ci.org/GinMu/node-test-demo.svg?branch=master)](https://travis-ci.org/GinMu/node-test-demo)",
-    "directories": {
-        "test": "test"
-    },
-    "dependencies": {
-        "should": "^8.3.1"
-    },
-    "devDependencies": {
-        "gulp": "^3.9.1",
-        "gulp-jshint": "^2.0.1",
-        "gulp-rename": "^1.2.2",
-        "gulp-uglify": "^1.5.3",
-        "jshint": "^2.9.2",
-        "should": "^8.3.1"
-    },
-    "scripts": {
-        "test": "mocha"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/GinMu/node-test-demo.git"
-    },
-    "keywords": [
-        "node",
-        "test",
-        "mocha"
-    ],
-    "author": "smu",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/GinMu/node-test-demo/issues"
-    },
-    "homepage": "https://github.com/GinMu/node-test-demo#readme"
+  "name": "node-test-demo",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/GinMu/node-test-demo.svg?branch=master)](https://travis-ci.org/GinMu/node-test-demo)",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "should": "^8.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.2",
+    "should": "^8.3.1"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GinMu/node-test-demo.git"
+  },
+  "keywords": [
+    "node",
+    "test",
+    "mocha"
+  ],
+  "author": "smu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GinMu/node-test-demo/issues"
+  },
+  "homepage": "https://github.com/GinMu/node-test-demo#readme"
 }
