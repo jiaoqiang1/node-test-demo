@@ -1,7 +1,7 @@
 {
   "name": "node-test-demo",
   "version": "1.0.0",
-  "description": "[![Build Status](https://travis-ci.org/GinMu/node-test-demo.svg?branch=master)](https://travis-ci.org/GinMu/node-test-demo)",
+  "description": "sample node test",
   "directories": {
     "test": "test"
   },
@@ -9,16 +9,21 @@
     "should": "^8.3.1"
   },
   "devDependencies": {
+    "coveralls": "^2.11.9",
     "gulp": "^3.9.1",
     "gulp-jshint": "^2.0.1",
     "gulp-mocha": "^2.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.3",
+    "istanbul": "^0.4.3",
     "jshint": "^2.9.2",
+    "mocha": "^2.4.5",
     "should": "^8.3.1"
   },
   "scripts": {
-    "test": "gulp"
+    "test": "./node_modules/.bin/gulp",
+    "mocha": "./node_modules/.bin/mocha -u bdd",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -29,7 +34,7 @@
     "test",
     "mocha"
   ],
-  "author": "smu",
+  "author": "smu@anfengde.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GinMu/node-test-demo/issues"
