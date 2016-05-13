@@ -31,7 +31,7 @@ gulp.task("mocha", function() {
         .pipe(mocha())
 });
 
-gulp.watch(config.jshint_src, ['jshint']);
-gulp.watch(config.uglify_src, ['minify-js']);
-gulp.watch(config.mocha_test_src, ['mocha']);
+//gulp.watch(config.jshint_src, ['jshint']);
+//gulp.watch(config.uglify_src, ['minify-js']);
+//gulp.watch(config.mocha_test_src, ['mocha']);
 gulp.task('default', ['jshint', 'minify-js', 'mocha']);
