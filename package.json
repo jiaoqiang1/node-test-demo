@@ -21,8 +21,8 @@
     "should": "^8.3.1"
   },
   "scripts": {
-    "test": "./node_modules/.bin/gulp",
-    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info  && rm -rf ./coverage"
+    "test": "bin/gulp.sh",
+    "coverage": "bin/coverage.sh"
   },
   "repository": {
     "type": "git",
